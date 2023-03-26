@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# MY-PORTFOLIO-APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Welcome to **My-Portfolio-App**. <br>
+My portfolio App is an a web application that allows people to share the projects they are currently working on. It encourages creativity and innovation through seeing what the current trends are. You can also manage your own portfolio with the ability to add, uodate and delete your portfolio projects.
+  <br>Enjoy the experience Cheers!
 
-## Available Scripts
+## Screenshot
 
-In the project directory, you can run:
+<img src="src/images/front-end.png">
 
-### `npm start`
+## Development Requirement
+- Visual StudioCode.
+- Live server extension.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Development Installattion
+To get the code .
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## project Set-up
+### Option 1 (live link)
+If you want to see the app running in real-time directly, you can just click on this link:
+[https://my-portfolio-app-frontend.vercel.app/]
 
-### `npm test`
+### Option 2 (Cloning the repository)
+1. Cloning the repository:
+press git clone https://github.com/Jobwawesh/my-portfolio-app-frontend on your terminal
+2. Move to the folder and install requirements
+3. `my-portfolio-app-frontend`
+4. Open the directory with your preferd application(prefereably VScode)
+5. Make sure you `install npm` for the required dependancies to be added.
+6. Open the application on your prefered browser.
+7. Run `npm start` to view the app in your prefered browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### NB
+Ensure your back end is up and running to get real time backend data.    `rake start`
 
-### `npm run build`
+## Running the Application and Features
+### User Story
+- This Application works with fetched data  from a remote server. The API used was created specifically for this app: https://my-app-backend-portfolio.onrender.com/project 
+- The first thing you will notice when you load the page is the login page where you need to either login if you have an account or signup if not. 
+- Once you create an account you will be able to see other peoples,projects on your home page.
+- On the profile section, you will be able to see a list of skills.
+- You are able to add your own projects on your profile where they will be displayed  on the homme page.
+- You can add or delete both your skills and projects.
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# THERE YOU GO! YOU CAN NOW ACTIVELY ENGAGE WITH THE APPLICATION. HAVE FUN!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology Used
+* React
+* JSON server
+* Npm dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Lincense
+Mozilla Public License Version 2.0
 
-### `npm run eject`
+## Author
+This repository is maintained by:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Job Waweru](https://github.com/Jobwawesh) 
