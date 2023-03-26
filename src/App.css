@@ -1,38 +1,173 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Raleway:ital,wght@0,300;0,600;1,700&family=Sen:wght@400;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Sen', sans-serif;
+  justify-content: center;
+}
+
+.login-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color:rgb(217, 142, 204);
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/desk.....jpg); */
+  background-position: center;
+  background-size: cover;
+}
+
+.form-box{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box-login{
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h2{
+  font-size: 2em;
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.inputbox{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
   pointer-events: none;
+  transition: .5s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding:0 35px 0 5px;
+  color: #fff;
+}
+.inputbox ion-icon{
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+.forget{
+  margin: -15px 0 15px ;
+  font-size: .9em;
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;  
+}
+
+.forget label input{
+  margin-right: 3px;
+  
+}
+.forget label a{
+  color: #fff;
+  text-decoration: none;
+}
+.forgotlink{
+  text-decoration: none;
+  color: rgb(152, 38, 118);
+  
+}
+.forget label a:hover{
+  text-decoration: underline;
+}
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.register{
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a{
+  text-decoration: none;
+  color: rgb(152, 38, 118);
+  font-weight: 600;
+}
+.register p a:hover{
+  text-decoration: underline;
+}
+
+/* Navbar */
+.nav-full{
+  background-color: #ebe0e00d;
+}
+.nav-menu{
+  display: flex;  
+  background-color: #ffffff25;
+}
+.nav-menu li {
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  list-style: none;
+  
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: rgb(239, 38, 15);
+  padding: 250px;
+}
+.nav-header{
+display: flex; 
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

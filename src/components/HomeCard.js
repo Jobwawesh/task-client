@@ -1,4 +1,5 @@
 import React from 'react'
+import './HomeCard.css'
 
 const initial = {
     title: "",
@@ -7,9 +8,9 @@ const initial = {
     status: "CREATED"
 }
 
-export default function ProjectCard({title,description,id, priority, status, deleteTodo, updateTodo}) {
+export default function HomeCard({title,description,id, priority, status, deleteTodo, updateTodo}) {
 
-    const API = `https://api.npoint.io/8d81cb7e13e594ae367a/${id}`
+    const API = `https://my-app-backend-portfolio.onrender.com/project'/${id}`
 
     function handleDeleteTodo(){
         fetch(API,{
@@ -38,7 +39,7 @@ export default function ProjectCard({title,description,id, priority, status, del
   return (
     <div key={id}>
 
-        <div key={id} className="projects-card">
+        <div key={id} className="skills-card">
                 <p className="project-title">{title}</p>
                 <p>{description}</p>
                 <h4>Priority: {priority}</h4>
