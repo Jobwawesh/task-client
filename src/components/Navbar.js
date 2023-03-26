@@ -9,9 +9,9 @@ function Navbar() {
           <li>
             <Link className='navbar' to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link className='navbar' to="/profile">Profile</Link>
-          </li>
+          </li> */}
           <li>
             <Link className='navbar' to="/login">Logout <ion-icon name="log-out-outline"></ion-icon></Link>
           </li>
