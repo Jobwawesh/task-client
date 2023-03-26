@@ -55,7 +55,7 @@ function Login({setToken}) {
     <div>
          <div className='login-section'>
                 <div className='about-section'>
-                    <h1>Welcome to My-todo App</h1>
+                    <h1>Welcome to My-Portfolio App</h1>
 
                 </div>
                 <div className='form-box-login'>

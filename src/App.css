@@ -7,7 +7,6 @@
   font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Sen', sans-serif;
-  justify-content: center;
 }
 
 .login-section{
@@ -170,4 +169,23 @@ display: flex;
   align-items: center;
   padding: 1rem;
 }
+
+.show{
+  display: block;
+}
+
+.noShow{
+  display: none;
+}
+
+.about-section{
+  padding: 8rem;
+  text-align: center;
+  min-width: 100vh;
+  height: 100%;
+  position: absolute;
+  color: #fff;
+
+}
+
 
