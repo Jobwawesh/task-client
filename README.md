@@ -7,7 +7,7 @@ With this todo app, you can keep track of all your tasks and stay organized thro
 
 ## Screenshot
 
-<img src="src/images/front-end.png">
+<img src="images/todo.png">
 
 ## Development Requirement
 - Visual StudioCode.
