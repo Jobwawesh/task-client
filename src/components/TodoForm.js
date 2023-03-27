@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './TodoForm.css'
 
 const TODOS = 'https://my-app-backend-portfolio.onrender.com/project'
 
@@ -36,13 +37,13 @@ function TodoForm({onAddTodo}) {
     return (
         <div className="todo-form">
             <h2>New Task</h2>
-            <form onSubmit={handleSubmit}>
+            <form className="todo-add-form" onSubmit={handleSubmit}>
                 <input type="text" name="title" placeholder="Title" value={data.title
                 } onChange={handleChange}/>
                 <input type="text" name="description" placeholder="Description" value={data.description} onChange={handleChange}/>
                 <input type="text" name="priority" placeholder="Priority" value={data.priority} onChange={handleChange}/>
                 <input type="text" name="status" placeholder="Status" value={data.status} onChange={handleChange}/>
-                <button type="submit">Add Task</button>
+                <button type="submit" className="add-task-btn">Add Task</button>
             </form>
         </div>
     )

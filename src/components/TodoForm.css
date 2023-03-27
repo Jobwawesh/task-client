@@ -1,0 +1,11 @@
+.add-task-btn{
+    background-color: green;
+    color: #fff;
+    width: 70%;
+}
+.todo-add-form{
+    display: flex;
+    justify-content: center;
+}
+  
+  
