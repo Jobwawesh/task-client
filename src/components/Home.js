@@ -32,7 +32,12 @@ function Home() {
       }
   
       function deleteTodo(id) {
+        fetch(`https://my-app-backend-portfolio.onrender.com/projects/destroy/${id}`,{
+        method: "DELETE"
+        })
+        .then(()=>{
           setTodos((data) => data.filter((item) => item.id !== id))
+        })
       }
   
     const list = todos.map((todo) => (
